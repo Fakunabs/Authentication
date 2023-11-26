@@ -1,0 +1,44 @@
+name: team_ex_1
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.17.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0-0
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_svg: ">=1.0.0-pre.1 <=3.0.0"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/dice-1.png
+    - assets/img/dice-2.png
+    - assets/img/dice-3.png
+    - assets/img/dice-4.png
+    - assets/img/dice-5.png
+    - assets/img/dice-6.png
+    - assets/img/App-icon.svg
+    - assets/img/facebook-logo.png
+    - assets/img/google-logo.png
+    - assets/img/apple-logo.png
+    - assets/img/hide.png
+    - assets/img/view.png
+
+  fonts:
+    - family: SignUpViewIcon
+      fonts: 
+        - asset: assets/fonts/SignUpViewIcon.ttf
+    - family: Mulish
+      fonts: 
+        - asset: assets/fonts/Mulish-VariableFont_wght.ttf
